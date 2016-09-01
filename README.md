@@ -3,10 +3,11 @@ JS通过navigator.userAgent判定设备信息
 
 使用方式：
 
-<code>Client.isMobile()</code>
+<pre><code>Client.isMobile()</code></pre>
 --返回Boolen类型
 
-<code>/**
+<pre><code>
+/**
  * JS通过navigator.userAgent判定设备信息
  * @datetime 20160901
  * @author fly(finfinity8@gmail.com) 
@@ -68,7 +69,8 @@ var Client = {
     isWeChat: function () {
         return !!client_info.match(/MicroMessenger/i);
     }
-};</code>
+};
+</code></pre>
 
 PS
 

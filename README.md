@@ -3,7 +3,7 @@ JS通过navigator.userAgent判定设备信息
 
 使用方式：
 
-## Client.isMobile() ##
+<code>Client.isMobile()</code>
 --返回Boolen类型
 
 PS

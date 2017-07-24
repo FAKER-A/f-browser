@@ -1,7 +1,9 @@
 /**
  * [浏览器检测 1.0]
- * 用于检测浏览器的版本信息
- * 直接将信息写入window，直接获取UAInfo即可获得浏览器信息
+ * Javascript通过navigator.userAgent判定设备信息用于检测浏览器的版本信息
+ * 直接将信息写入window，直接获取F_BROWER即可获得浏览器信息
+ * @datetime 20170724
+ * @author Fly
  */
 (function () {
     'use strict';

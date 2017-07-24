@@ -90,5 +90,5 @@
         return uaInfo;
     };
     
-    window.UAInfo = testBrowser(regexp);
+    window.F_BROWER = testBrowser(regexp);
 })();

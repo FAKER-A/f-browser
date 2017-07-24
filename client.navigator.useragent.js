@@ -1,7 +1,7 @@
 /**
  * JS通过navigator.userAgent判定设备信息
  * @datetime 20160901
- * @author fly(finfinity8@gmail.com) 
+ * @author Fly
  */
 var client_info = navigator.userAgent.toLowerCase();
 var Client = {
